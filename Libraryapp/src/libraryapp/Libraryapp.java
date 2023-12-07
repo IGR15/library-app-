@@ -32,7 +32,8 @@ public class Libraryapp {
                     "6. Search Book By Author \n" +
                     "7. Get Books on loan \n" +
                     "8. Add student \n" +
-                    "9. Loan A Book \n");
+                    "9. Loan A Book \n"+
+                    "10. exit \n"    );
 
 
                 int option=sc.nextInt();
@@ -172,6 +173,7 @@ public class Libraryapp {
                     System.out.println(" this book "+bookName+" is on loan");
                     break;
                 }
+                 case 10 :{                    isSystemWorking=false;                 }
 
 
             }
